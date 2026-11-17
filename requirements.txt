@@ -1,0 +1,5 @@
+# RunHub — runtime dependencies
+# Python 3.12+ recommended.
+
+PyQt5>=5.15.10
+psutil>=5.9.5
