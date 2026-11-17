@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "prf-frontend",
+      "name": "Storefront",
+      "description": "Everything the shop needs: web + API started together",
+      "color": "#61dafb",
+      "project_ids": ["prj-storefront-web", "prj-storefront-api"],
+      "created_at": "2026-11-10 09:20:00",
+      "updated_at": "2026-11-16 18:40:00"
+    },
+    {
+      "id": "prf-backend",
+      "name": "Backend & Tools",
+      "description": "APIs and batch tooling without the frontend",
+      "color": "#10b981",
+      "project_ids": ["prj-storefront-api", "prj-price-scraper"],
+      "created_at": "2026-11-10 09:21:00",
+      "updated_at": "2026-11-12 14:05:00"
+    }
+  ]
+}

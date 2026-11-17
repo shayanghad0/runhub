@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "id": "prj-storefront-web",
+      "name": "Storefront Web",
+      "path": "D:/dev/storefront/web",
+      "type": "react",
+      "command": "npm run dev",
+      "port": 5173,
+      "description": "React + Vite storefront frontend",
+      "tags": ["frontend", "vite", "shop"],
+      "env": {
+        "VITE_API_URL": "http://localhost:8000"
+      },
+      "groups": ["prf-frontend"],
+      "favorite": true,
+      "auto_open_browser": true,
+      "allow_shell": false,
+      "color": "#61dafb",
+      "created_at": "2026-11-10 09:15:00",
+      "updated_at": "2026-11-16 18:42:00",
+      "last_started_at": "2026-11-16 18:42:00",
+      "last_exit_code": null,
+      "run_count": 57
+    },
+    {
+      "id": "prj-storefront-api",
+      "name": "Storefront API",
+      "path": "D:/dev/storefront/api",
+      "type": "fastapi",
+      "command": "uvicorn main:app --reload --port 8000",
+      "port": 8000,
+      "description": "FastAPI backend with Postgres (local)",
+      "tags": ["backend", "api"],
+      "env": {
+        "DATABASE_URL": "sqlite:///./storefront.db",
+        "DEBUG": "1"
+      },
+      "groups": ["prf-frontend", "prf-backend"],
+      "favorite": true,
+      "auto_open_browser": true,
+      "allow_shell": false,
+      "color": "#00a39a",
+      "created_at": "2026-11-10 09:18:30",
+      "updated_at": "2026-11-16 18:43:10",
+      "last_started_at": "2026-11-16 18:43:10",
+      "last_exit_code": 0,
+      "run_count": 41
+    },
+    {
+      "id": "prj-price-scraper",
+      "name": "Price Scraper",
+      "path": "C:/dev/tools/price-scraper",
+      "type": "python",
+      "command": "python scraper.py",
+      "port": 0,
+      "description": "Nightly price collector — no web UI, console only",
+      "tags": ["tooling", "batch"],
+      "env": {
+        "SCRAPER_OUTPUT": "./out"
+      },
+      "groups": ["prf-backend"],
+      "favorite": false,
+      "auto_open_browser": false,
+      "allow_shell": false,
+      "color": "",
+      "created_at": "2026-11-12 14:02:00",
+      "updated_at": "2026-11-15 08:00:00",
+      "last_started_at": "2026-11-15 08:00:00",
+      "last_exit_code": 1,
+      "run_count": 9
+    }
+  ]
+}
