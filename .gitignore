@@ -1,0 +1,31 @@
+# Design prompts (not part of the application)
+prompt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+.venv/
+venv/
+env/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+htmlcov/
+
+# RunHub runtime data (projects.json, settings.json, profiles.json, logs.json)
+data/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
