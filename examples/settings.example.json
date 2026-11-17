@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "settings": {
+    "theme_mode": "dark",
+    "accent_name": "Indigo",
+    "font_size": 10,
+    "confirm_stop": true,
+    "confirm_quit_running": true,
+    "auto_open_browser": true,
+    "log_buffer_lines": 5000,
+    "log_persist_lines": 2000,
+    "monitor_interval_ms": 1500,
+    "editor_path": "C:/Users/you/AppData/Local/Programs/Microsoft VS Code/Code.exe",
+    "terminal_path": "",
+    "plugins_enabled": {},
+    "window_geometry": "",
+    "first_run_done": true
+  }
+}
